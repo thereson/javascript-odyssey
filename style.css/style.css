@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: grey;
+}
+.top {
+  border-bottom: solid;
+  height: 37vh;
+}
+.font {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.button {
+  height: 40px;
+  width: 90px;
+}
+.num {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  top: 50px;
+}
+.div {
+  position: relative;
+  top: 100px;
+  left: 210px;
+  border: solid;
+  width: 100px;
+  text-align: center;
+}
+.main {
+  display: grid;
+  grid-template-columns: 100px;
+  grid-gap: 20px;
+}
+#left {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  top: 80px;
+}
+.input {
+  height: 50px;
+  width: 120px;
+}
+.btn {
+  height: 40px;
+  left: 100px;
+}
+.label-high {
+  position: relative;
+  top: 100px;
+}
+.label-score {
+  position: relative;
+  top: 80px;
+}
